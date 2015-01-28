@@ -1,0 +1,5 @@
+t1 = task()
+t2 = task(name = "thistask", due = "2/2/2015", dur = 1)
+t3 = task(name = "thistask2", rep = 7, dur = 1.5)
+tasks = [t1, t2, t3]
+createList(tasks, "testlist.txt")

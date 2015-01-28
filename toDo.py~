@@ -16,7 +16,6 @@ def task(name = time.strftime("%d/%m/%y"), due = time.strftime("%d/%m/%y"), rep 
 	return(current)
 
 def createList(tasks, filename = time.strftime("%d_%b_%y")+".txt"):
-	print(tasks)
 	jsontasks = json.dumps(tasks)
 	l = open(filename, "w")
 	l.write(jsontasks)
